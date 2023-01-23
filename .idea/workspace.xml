@@ -30,7 +30,9 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2G55ZM8pVPpRApDC5AFGBwy4aaK" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -89,6 +91,7 @@
       <workItem from="1672932717541" duration="61000" />
       <workItem from="1672932785941" duration="32283000" />
       <workItem from="1674075734428" duration="1527000" />
+      <workItem from="1674490669958" duration="3426000" />
     </task>
     <servers />
   </component>
