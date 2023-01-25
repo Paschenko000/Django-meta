@@ -1,11 +1,11 @@
 from django.shortcuts import render
-from myapp.forms import LogForm
+from myapp.forms import BookingForm
 
 def form_view(request):
-    form = LogForm()
+    form = BookingForm()
     if request.method == 'POST':
-        form == LogForm(request.POST)
+        form = BookingForm(request.POST)
         if form.is_valid():
             form.save()
-    context = {"form": form}
-    return render(request, 'home.html', context)
+    context = {"form" : form}
+    return render(request, "booking.html", context)

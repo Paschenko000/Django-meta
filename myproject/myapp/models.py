@@ -2,8 +2,9 @@ from django.db import models
 
 # Create your models here.
 
-class Logger(models.Model):
+class Booking(models.Model):
     first_name = models.CharField(max_length=200)
     last_name = models.CharField(max_length=200)
-    time_log = models.TimeField()
-
+    guest_count = models.IntegerField()
+    reservation_time = models.DateField(auto_now=True)
+    comments = models.CharField(max_length=1000)
